@@ -81,7 +81,7 @@ new_df["new_customer_id"] = rfm[rfm["segment"] == "new_customers"].index
 
 new_df["new_customer_id"] = new_df["new_customer_id"].astype(int)
 
-new_df.to_csv("new_customers.csv")
+new_df.to_csv("data/output/new_customers.csv")
 
 rfm.to_csv("rfm.csv")
 
