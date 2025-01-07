@@ -37,3 +37,45 @@ Bu Online Retail II veri seti, 01/12/2009 ile 09/12/2011 tarihleri ​​arasın
 data/input/online_retail_II.xlsx
 ## Çıktı:
 data/output/cltv-predictions/cltv_predictions.csv
+
+
+
+
+# Customer Life Time Predictions (CLTV) with BG/NBD and Gamma Gamma SubModel - - FLO Dataset [ENG]
+## About dataset:
+The dataset consists of information obtained from the past shopping behavior of customers who made their last purchases from Flo as OmniChannel (both online and offline shopping) in 2020 - 2021.
+## Attribute informations:
+- master_id:                         unique customer ID
+- order_channel :                    Which channel of the shopping platform is used (Android, iOS, Desktop, Mobile)
+- last_order_channel:                The channel/platform where the last purchase was made
+- first_order_date:                  Date of the customer's first purchase
+- last_order_date:                   Date of the customer's last purchase
+- last_order_date_online:            The customer's last shopping date on the online platform
+- last_order_date_offline:           The customer's last shopping date on the offline platform
+- order_num_total_ever_online:       The total number of purchases made by the customer on the online platform
+- order_num_total_ever_offline:      Total number of purchases made by the customer offline
+- customer_value_total_ever_offline: Total amount paid by the customer for offline shopping
+- customer_value_total_ever_online : Total amount paid by the customer for online shopping
+- interested_in_categories_12 :      List of categories the customer has shopped in the last 12 months
+
+
+
+# BG/NBD ve Gamma Gamma Sub Modelini kullanarak Müşteri Yaşam Döngüsü Tahmini - FLO Dataset [TUR]
+## Veri seti hakkında
+Veri seti Flo’dan son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
+## Değişkenler:
+- master_id:                         Eşsiz müşteri numarası
+- order_channel:                     Alışveriş yapılan platforma ait hangi kanalın kullanıldığı (Android, ios, Desktop, Mobile)
+- last_order_channel:                En son alışverişin yapıldığı kanal
+- first_order_date:                  Müşterinin yaptığı ilk alışveriş tarihi
+- last_order_date:                   Müşterinin yaptığı son alışveriş tarihi
+- last_order_date_online:            Müşterinin online platformda yaptığı son alışveriş tarihi
+- last_order_date_offline:           Müşterinin offline platformda yaptığı son alışveriş tarihi
+- order_num_total_ever_online:       Müşterinin online platformda yaptığı toplam alışveriş sayısı
+- order_num_total_ever_offline:      Müşterinin offline'da yaptığı toplam alışveriş sayısı
+- customer_value_total_ever_offline: Müşterinin offline alışverişlerinde ödediği toplam ücret
+- customer_value_total_ever_online : Müşterinin online alışverişlerinde ödediği toplam ücret
+- interested_in_categories_12 :      Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
+
+
+
